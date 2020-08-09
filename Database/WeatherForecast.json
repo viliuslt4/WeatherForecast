@@ -10,8 +10,63 @@
           "Day": 30,
           "Night": 22
         }
+      },
+      {
+        "Date": "2020/08/10",
+        "WeatherConditions": "Sunny",
+        "Temperature": {
+          "Day": 30,
+          "Night": 22
+        }
+      },
+      {
+        "Date": "2020/08/11",
+        "WeatherConditions": "Sunny",
+        "Temperature": {
+          "Day": 30,
+          "Night": 22
+        }
+      },
+      {
+        "Date": "2020/08/12",
+        "WeatherConditions": "Sunny",
+        "Temperature": {
+          "Day": 30,
+          "Night": 22
+        }
+      },
+      {
+        "Date": "2020/08/13",
+        "WeatherConditions": "Sunny",
+        "Temperature": {
+          "Day": 30,
+          "Night": 22
+        }
+      },
+      {
+        "Date": "2020/08/14",
+        "WeatherConditions": "Sunny",
+        "Temperature": {
+          "Day": 30,
+          "Night": 22
+        }
+      },
+      {
+        "Date": "2020/08/15",
+        "WeatherConditions": "Sunny",
+        "Temperature": {
+          "Day": 30,
+          "Night": 22
+        }
+      },
+      {
+        "Date": "2020/08/16",
+        "WeatherConditions": "Sunny",
+        "Temperature": {
+          "Day": 30,
+          "Night": 22
+        }
       }
-
     ]
   },
   {
