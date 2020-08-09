@@ -1,0 +1,73 @@
+﻿
+[
+  {
+    "City": "Vilnius",
+    "WeatherForecastList": [
+      {
+        "Date": "2020/08/09",
+        "WeatherConditions": "Sunny",
+        "Temperature": {
+          "Day": 30,
+          "Night": 22
+        }
+      }
+
+    ]
+  },
+  {
+    "City": "Kaunas",
+    "WeatherForecastList": [
+      {
+        "Date": "2020/08/09",
+        "WeatherConditions": "Sunny",
+        "Temperature": {
+          "Day": 28,
+          "Night": 21
+        }
+      }
+
+    ]
+  },
+  {
+    "City": "Klaipėda",
+    "WeatherForecastList": [
+      {
+        "Date": "2020/08/09",
+        "WeatherConditions": "Sunny",
+        "Temperature": {
+          "Day": 28,
+          "Night": 22
+        }
+      }
+
+    ]
+  },
+  {
+    "City": "Šiauliai",
+    "WeatherForecastList": [
+      {
+        "Date": "2020/08/09",
+        "WeatherConditions": "Sunny",
+        "Temperature": {
+          "Day": 29,
+          "Night": 23
+        }
+      }
+
+    ]
+  },
+  {
+    "City": "Panevėžys",
+    "WeatherForecastList": [
+      {
+        "Date": "2020/08/09",
+        "WeatherConditions": "Sunny",
+        "Temperature": {
+          "Day": 27,
+          "Night": 22
+        }
+      }
+
+    ]
+  }
+]
