@@ -9,6 +9,7 @@ namespace WeatherForecast.Controllers
     public class WeatherForecastController : ApiController
     {
         // api/WeatherForecast/GetWeatherForecast
+        [HttpGet]
         public object GetWeatherForecast()
         {
             string path = System.Web.HttpContext.Current.Request.MapPath(@"~/Database/WeatherForecast.json");
