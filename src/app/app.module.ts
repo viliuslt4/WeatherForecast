@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
+import { DatePipe } from '@angular/common';
 
 import { AppComponent } from './app.component';
 import { ForecastService } from './forecast.service';
@@ -19,7 +20,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     NgbModule,
     HttpClientModule
   ],
-  providers: [ForecastService],
+  providers: [ForecastService, DatePipe],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
