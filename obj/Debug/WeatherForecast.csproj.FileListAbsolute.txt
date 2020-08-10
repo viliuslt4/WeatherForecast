@@ -83,3 +83,6 @@ C:\Development\WeatherForecast\WeatherForecast\WeatherForecast\obj\Debug\Weather
 C:\Development\WeatherForecast\WeatherForecast\WeatherForecast\obj\Debug\WeatherForecast.csproj.CopyComplete
 C:\Development\WeatherForecast\WeatherForecast\WeatherForecast\obj\Debug\WeatherForecast.dll
 C:\Development\WeatherForecast\WeatherForecast\WeatherForecast\obj\Debug\WeatherForecast.pdb
+C:\Development\WeatherForecast\WeatherForecast\WeatherForecast\bin\System.Web.Cors.dll
+C:\Development\WeatherForecast\WeatherForecast\WeatherForecast\bin\System.Web.Http.Cors.dll
+C:\Development\WeatherForecast\WeatherForecast\WeatherForecast\bin\System.Web.Http.Cors.xml

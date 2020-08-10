@@ -12,6 +12,7 @@ namespace WeatherForecast.Controllers
     {
         // api/WeatherForecast/GetWeatherForecast?date=2020/08/10&city=Vilnius
         // ?date=2020/08/09&city="Vilnius"
+
         [HttpGet]
         public object GetWeatherForecast(DateTime date, string city)
         {

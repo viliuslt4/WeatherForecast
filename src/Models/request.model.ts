@@ -1,4 +1,4 @@
-export interface ForecastRequest{
+export interface Request{
     date: Date;
     city: string;
 }
