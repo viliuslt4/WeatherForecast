@@ -1,4 +1,4 @@
-export interface Request{
-    date: Date;
+export class Request{
+    date: string;
     city: string;
 }
