@@ -2,30 +2,34 @@
     padding:2rem 0;
     .row{
         justify-content: space-between;
-        .forecast{
-            max-width:13.5%;
-            background-color: #f4f4f6;
-            border-radius:4px;
-            padding:0.75rem;
-            img{
-                max-width:100%;
-                height:auto;
-            }
-            .temp-box{
-                display:flex;
-                width:100%;
-                justify-content: space-between;
-            }
-            .skycon{
-                padding:2rem 0;
-            }
-            span{
-                &.date{
-                    font-size:18px;
-                    margin-bottom:1.25rem;
+        margin:0 -10px;
+        .col-12{
+            max-width:14%;
+            padding:0 10px;
+            .forecast{               
+                background-color: #f4f4f6;
+                border-radius:4px;
+                padding:0.75rem;
+                img{
+                    max-width:100%;
+                    height:auto;
                 }
-                &.temp{
-                    font-size:18px;
+                .temp-box{
+                    display:flex;
+                    width:100%;
+                    justify-content: space-between;
+                }
+                .skycon{
+                    padding:2rem 0;
+                }
+                span{
+                    &.date{
+                        font-size:18px;
+                        margin-bottom:1.25rem;
+                    }
+                    &.temp{
+                        font-size:18px;
+                    }
                 }
             }
         }

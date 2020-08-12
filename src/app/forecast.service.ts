@@ -8,9 +8,11 @@ import { BehaviorSubject, Subject } from 'rxjs';
   providedIn: 'root'
 })
 export class ForecastService {
-  
+
+  private intervalSource = new Subject<any>();
   private citySource = new Subject<any>();
   city = this.citySource.asObservable();
+  interval = this.intervalSource.asObservable();
 
   constructor(private http: HttpClient) { }
 
@@ -22,5 +24,8 @@ export class ForecastService {
   }
   cityChange(city:string){
     this.citySource.next(city);
+  }
+  intervalChange(interval:number){
+    this.intervalSource.next(interval);
   }
 }

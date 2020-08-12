@@ -10,11 +10,12 @@ import { ForecastService } from '../forecast.service';
 export class SelectCityComponent implements OnInit {
   cities: Cities[] = [];
   city: string;
-
+  interval: number = 7;
   constructor(private forecastService: ForecastService) { }
 
   ngOnInit(): void {
     this.loadCities();
+    this.forecastService.intervalChange(this.interval);
   }
   loadCities(){
     this.forecastService.getListOfCities().subscribe(result=>{
@@ -27,6 +28,12 @@ export class SelectCityComponent implements OnInit {
     if(this.city !== value){
       this.city = value;
       this.forecastService.cityChange(this.city);
+    }
+  }
+  onIntervalChange(value){
+    if(this.interval !== value){
+      this.interval = value;
+      this.forecastService.intervalChange(this.interval);
     }
   }
 }

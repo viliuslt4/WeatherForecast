@@ -1,24 +1,29 @@
-<div class="title">
-    <h2>Weather forecast</h2>
-</div>
-<div class="controls">
-    <div class="select-wrapper">
-        <label>Select city:</label>
-        <select class="browser-default custom-select" [(ngModel)]="city" *ngIf="cities.length > 0" (change)="onItemChange($event.target.value)">
-            <option *ngFor="let opt of cities | keyvalue" [value]="opt.value">{{ opt.value }}</option>
-        </select>
-    </div>
-    <div class="wrapper">
-        <Label>Select interval:</Label>
-        <div class="radio-wrapper">
-            <input type="radio" name="interval" value="week" checked>
-            <label for="Week">Week</label>
+<div class="row">
+    <div class="col-12">
+        <div class="title">
+            <h2>Weather forecast</h2>
         </div>
-        <div class="radio-wrapper">
-            <input type="radio" name="interval" value="day">
-            <label for="Day">Day</label>
+        <div class="controls">
+            <div class="select-wrapper">
+                <label>Select city:</label>
+                <select class="browser-default custom-select" [(ngModel)]="city" *ngIf="cities.length > 0" (change)="onItemChange($event.target.value)">
+                    <option *ngFor="let opt of cities | keyvalue" [value]="opt.value">{{ opt.value }}</option>
+                </select>
+            </div>
+            <div class="wrapper">
+                <Label>Select interval:</Label>
+                <div class="radio-wrapper">
+                    <input id="Week" type="radio" name="interval" value="7" checked (change)="onIntervalChange($event.target.value)">
+                    <label for="Week">Week</label>
+                </div>
+                <div class="radio-wrapper">
+                    <input id="Day" type="radio" name="interval" value="1" (change)="onIntervalChange($event.target.value)">
+                    <label for="Day">Day</label>
+                </div>
+            </div>
         </div>
     </div>
 </div>
+
 
 

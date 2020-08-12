@@ -29,10 +29,14 @@
     .radio-wrapper{
         display:flex;
         align-items: center;
+        input{
+            cursor:pointer;
+        }
         label{
             width:inherit;
             margin-bottom:0;
             padding-left:0.5rem;
+            cursor: pointer;
         }
     }
 }

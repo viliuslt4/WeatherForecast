@@ -1,10 +1,12 @@
 <div class="weather-forecast" *ngIf="weatherForecast !== undefined">
     <div class="row">
-        <div class="col-12 col-md-2 text-center forecast" *ngFor="let forecast of weatherForecast.WeatherForecastList">
-            <span class="date">{{ datePipe.transform(forecast.Date,"yyyy/MM/dd") }}</span>
-            <sc-skycons class="skycon" [resizeClear]="true" [weather]="forecast.WeatherConditions" [color]="'black'"></sc-skycons>
-            <div class="temp-box day"><span>Day:</span> <span class="temp">{{ forecast.Temperature.Day }} °</span></div>
-            <div class="temp-box night"><span>Night:</span> <span class="temp">{{ forecast.Temperature.Night }} °</span></div>
+        <div class="col-12 col-md-2 text-center" *ngFor="let forecast of weatherForecast.WeatherForecastList; let i = index">
+            <div class="forecast" *ngIf="i < interval">
+                <span class="date">{{ datePipe.transform(forecast.Date,"yyyy/MM/dd") }}</span>
+                <sc-skycons class="skycon" [weather]="forecast.WeatherConditions" [color]="'black'"></sc-skycons>
+                <div class="temp-box day"><span>Day:</span> <span class="temp">{{ forecast.Temperature.Day }} °</span></div>
+                <div class="temp-box night"><span>Night:</span> <span class="temp">{{ forecast.Temperature.Night }} °</span></div>
+            </div>
         </div>
     </div>
 </div>

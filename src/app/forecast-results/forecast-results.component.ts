@@ -13,10 +13,14 @@ export class ForecastResultsComponent implements OnInit {
   request = new Request();
   weatherForecast: WeatherForecast;
   city: string;
-  
+  interval: number;
   constructor(private forecastService: ForecastService, private datePipe: DatePipe) { 
     this.forecastService.city.subscribe(
       city => {this.request.city = city, this.loadWeatherForecast()},
+      error => console.log(error)
+    )
+    this.forecastService.interval.subscribe(
+      interval => {this.interval = interval},
       error => console.log(error)
     )
   }
