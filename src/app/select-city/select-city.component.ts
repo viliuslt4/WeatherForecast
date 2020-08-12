@@ -10,6 +10,7 @@ import { ForecastService } from '../forecast.service';
 export class SelectCityComponent implements OnInit {
   cities: Cities[] = [];
   city: string;
+
   constructor(private forecastService: ForecastService) { }
 
   ngOnInit(): void {

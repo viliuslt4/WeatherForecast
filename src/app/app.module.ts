@@ -8,6 +8,7 @@ import { ForecastService } from './forecast.service';
 import { SelectCityComponent } from './select-city/select-city.component';
 import { ForecastResultsComponent } from './forecast-results/forecast-results.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { SkyconsModule } from 'ngx-skycons';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   imports: [
     BrowserModule,
     NgbModule,
-    HttpClientModule
+    HttpClientModule,
+    SkyconsModule
   ],
   providers: [ForecastService, DatePipe],
   bootstrap: [AppComponent]

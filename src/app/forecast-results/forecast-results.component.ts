@@ -3,7 +3,6 @@ import { ForecastService } from '../forecast.service';
 import { DatePipe } from '@angular/common';
 import { Request } from '../../Models/request.model';
 import { WeatherForecast } from '../../Models/weatherForecast.model';
-import { from } from 'rxjs/';
 
 @Component({
   selector: 'app-forecast-results',
@@ -24,10 +23,6 @@ export class ForecastResultsComponent implements OnInit {
 
   ngOnInit(): void { 
     this.request.date = this.datePipe.transform(new Date(),"yyyy/MM/dd");
-    // this.forecastService.create((observer =>{
-    //   observer.next(this.forecastService.city.subscribe(city => this.city = city));
-    //   observer.complete(this.loadWeatherForecast());
-    // }));
   }
   loadWeatherForecast(){
     this.forecastService.getWeatherForecast(this.request).subscribe(

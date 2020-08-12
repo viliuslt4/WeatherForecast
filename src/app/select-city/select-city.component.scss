@@ -1,6 +1,38 @@
-.select-wrapper{
-    select{
-        max-width:300px;
-        margin:0 auto;
+.title{
+    padding-top:2rem;
+}
+.controls{
+    display:flex;
+    justify-content: space-between;
+    padding: 0.75rem 0;
+    .select-wrapper{
+        label{
+            display:block;
+            text-align: left;
+        }
+        select{   
+            width:300px;
+        }
+    }
+    .wrapper{
+        display:flex;
+        justify-content: space-between;
+        flex-wrap:wrap;
+        align-items: flex-end;
+        text-align: left;
+        width: 128px;
+        label{
+            display:block;
+            width:100%;
+        }
+    }
+    .radio-wrapper{
+        display:flex;
+        align-items: center;
+        label{
+            width:inherit;
+            margin-bottom:0;
+            padding-left:0.5rem;
+        }
     }
 }

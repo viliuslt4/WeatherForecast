@@ -1,35 +1,11 @@
-﻿
+
 [
   {
     "City": "Vilnius",
     "WeatherForecastList": [
       {
-        "Date": "2020/08/09",
-        "WeatherConditions": "Sunny",
-        "Temperature": {
-          "Day": 30,
-          "Night": 22
-        }
-      },
-      {
-        "Date": "2020/08/10",
-        "WeatherConditions": "Sunny",
-        "Temperature": {
-          "Day": 30,
-          "Night": 22
-        }
-      },
-      {
-        "Date": "2020/08/11",
-        "WeatherConditions": "Sunny",
-        "Temperature": {
-          "Day": 30,
-          "Night": 22
-        }
-      },
-      {
         "Date": "2020/08/12",
-        "WeatherConditions": "Sunny",
+        "WeatherConditions": "CLEARDAY",
         "Temperature": {
           "Day": 30,
           "Night": 22
@@ -37,7 +13,7 @@
       },
       {
         "Date": "2020/08/13",
-        "WeatherConditions": "Sunny",
+        "WeatherConditions": "PARTLYCLOUDYDAY",
         "Temperature": {
           "Day": 30,
           "Night": 22
@@ -45,7 +21,7 @@
       },
       {
         "Date": "2020/08/14",
-        "WeatherConditions": "Sunny",
+        "WeatherConditions": "CLOUDY",
         "Temperature": {
           "Day": 30,
           "Night": 22
@@ -53,7 +29,7 @@
       },
       {
         "Date": "2020/08/15",
-        "WeatherConditions": "Sunny",
+        "WeatherConditions": "RAIN",
         "Temperature": {
           "Day": 30,
           "Night": 22
@@ -61,7 +37,31 @@
       },
       {
         "Date": "2020/08/16",
-        "WeatherConditions": "Sunny",
+        "WeatherConditions": "PARTLYCLOUDYDAY",
+        "Temperature": {
+          "Day": 30,
+          "Night": 22
+        }
+      },
+      {
+        "Date": "2020/08/17",
+        "WeatherConditions": "CLEARDAY",
+        "Temperature": {
+          "Day": 30,
+          "Night": 22
+        }
+      },
+      {
+        "Date": "2020/08/18",
+        "WeatherConditions": "CLEARDAY",
+        "Temperature": {
+          "Day": 30,
+          "Night": 22
+        }
+      },
+      {
+        "Date": "2020/08/19",
+        "WeatherConditions": "CLEARDAY",
         "Temperature": {
           "Day": 30,
           "Night": 22
@@ -73,56 +73,276 @@
     "City": "Kaunas",
     "WeatherForecastList": [
       {
-        "Date": "2020/08/09",
-        "WeatherConditions": "Sunny",
+        "Date": "2020/08/12",
+        "WeatherConditions": "CLEARDAY",
         "Temperature": {
-          "Day": 28,
-          "Night": 21
+          "Day": 30,
+          "Night": 22
+        }
+      },
+      {
+        "Date": "2020/08/13",
+        "WeatherConditions": "PARTLYCLOUDYDAY",
+        "Temperature": {
+          "Day": 30,
+          "Night": 22
+        }
+      },
+      {
+        "Date": "2020/08/14",
+        "WeatherConditions": "CLOUDY",
+        "Temperature": {
+          "Day": 30,
+          "Night": 22
+        }
+      },
+      {
+        "Date": "2020/08/15",
+        "WeatherConditions": "RAIN",
+        "Temperature": {
+          "Day": 30,
+          "Night": 22
+        }
+      },
+      {
+        "Date": "2020/08/16",
+        "WeatherConditions": "PARTLYCLOUDYDAY",
+        "Temperature": {
+          "Day": 30,
+          "Night": 22
+        }
+      },
+      {
+        "Date": "2020/08/17",
+        "WeatherConditions": "CLEARDAY",
+        "Temperature": {
+          "Day": 30,
+          "Night": 22
+        }
+      },
+      {
+        "Date": "2020/08/18",
+        "WeatherConditions": "CLEARDAY",
+        "Temperature": {
+          "Day": 30,
+          "Night": 22
+        }
+      },
+      {
+        "Date": "2020/08/19",
+        "WeatherConditions": "CLEARDAY",
+        "Temperature": {
+          "Day": 30,
+          "Night": 22
         }
       }
-
     ]
   },
   {
     "City": "Klaipėda",
     "WeatherForecastList": [
       {
-        "Date": "2020/08/09",
-        "WeatherConditions": "Sunny",
+        "Date": "2020/08/12",
+        "WeatherConditions": "CLEARDAY",
         "Temperature": {
-          "Day": 28,
+          "Day": 30,
+          "Night": 22
+        }
+      },
+      {
+        "Date": "2020/08/13",
+        "WeatherConditions": "PARTLYCLOUDYDAY",
+        "Temperature": {
+          "Day": 30,
+          "Night": 22
+        }
+      },
+      {
+        "Date": "2020/08/14",
+        "WeatherConditions": "CLOUDY",
+        "Temperature": {
+          "Day": 30,
+          "Night": 22
+        }
+      },
+      {
+        "Date": "2020/08/15",
+        "WeatherConditions": "RAIN",
+        "Temperature": {
+          "Day": 30,
+          "Night": 22
+        }
+      },
+      {
+        "Date": "2020/08/16",
+        "WeatherConditions": "PARTLYCLOUDYDAY",
+        "Temperature": {
+          "Day": 30,
+          "Night": 22
+        }
+      },
+      {
+        "Date": "2020/08/17",
+        "WeatherConditions": "CLEARDAY",
+        "Temperature": {
+          "Day": 30,
+          "Night": 22
+        }
+      },
+      {
+        "Date": "2020/08/18",
+        "WeatherConditions": "CLEARDAY",
+        "Temperature": {
+          "Day": 30,
+          "Night": 22
+        }
+      },
+      {
+        "Date": "2020/08/19",
+        "WeatherConditions": "CLEARDAY",
+        "Temperature": {
+          "Day": 30,
           "Night": 22
         }
       }
-
     ]
   },
   {
     "City": "Šiauliai",
     "WeatherForecastList": [
       {
-        "Date": "2020/08/09",
-        "WeatherConditions": "Sunny",
+        "Date": "2020/08/12",
+        "WeatherConditions": "CLEARDAY",
         "Temperature": {
-          "Day": 29,
-          "Night": 23
+          "Day": 30,
+          "Night": 22
+        }
+      },
+      {
+        "Date": "2020/08/13",
+        "WeatherConditions": "PARTLYCLOUDYDAY",
+        "Temperature": {
+          "Day": 30,
+          "Night": 22
+        }
+      },
+      {
+        "Date": "2020/08/14",
+        "WeatherConditions": "CLOUDY",
+        "Temperature": {
+          "Day": 30,
+          "Night": 22
+        }
+      },
+      {
+        "Date": "2020/08/15",
+        "WeatherConditions": "RAIN",
+        "Temperature": {
+          "Day": 30,
+          "Night": 22
+        }
+      },
+      {
+        "Date": "2020/08/16",
+        "WeatherConditions": "PARTLYCLOUDYDAY",
+        "Temperature": {
+          "Day": 30,
+          "Night": 22
+        }
+      },
+      {
+        "Date": "2020/08/17",
+        "WeatherConditions": "CLEARDAY",
+        "Temperature": {
+          "Day": 30,
+          "Night": 22
+        }
+      },
+      {
+        "Date": "2020/08/18",
+        "WeatherConditions": "CLEARDAY",
+        "Temperature": {
+          "Day": 30,
+          "Night": 22
+        }
+      },
+      {
+        "Date": "2020/08/19",
+        "WeatherConditions": "CLEARDAY",
+        "Temperature": {
+          "Day": 30,
+          "Night": 22
         }
       }
-
     ]
   },
   {
     "City": "Panevėžys",
     "WeatherForecastList": [
       {
-        "Date": "2020/08/09",
-        "WeatherConditions": "Sunny",
+        "Date": "2020/08/12",
+        "WeatherConditions": "CLEARDAY",
         "Temperature": {
-          "Day": 27,
+          "Day": 30,
+          "Night": 22
+        }
+      },
+      {
+        "Date": "2020/08/13",
+        "WeatherConditions": "PARTLYCLOUDYDAY",
+        "Temperature": {
+          "Day": 30,
+          "Night": 22
+        }
+      },
+      {
+        "Date": "2020/08/14",
+        "WeatherConditions": "CLOUDY",
+        "Temperature": {
+          "Day": 30,
+          "Night": 22
+        }
+      },
+      {
+        "Date": "2020/08/15",
+        "WeatherConditions": "RAIN",
+        "Temperature": {
+          "Day": 30,
+          "Night": 22
+        }
+      },
+      {
+        "Date": "2020/08/16",
+        "WeatherConditions": "PARTLYCLOUDYDAY",
+        "Temperature": {
+          "Day": 30,
+          "Night": 22
+        }
+      },
+      {
+        "Date": "2020/08/17",
+        "WeatherConditions": "CLEARDAY",
+        "Temperature": {
+          "Day": 30,
+          "Night": 22
+        }
+      },
+      {
+        "Date": "2020/08/18",
+        "WeatherConditions": "CLEARDAY",
+        "Temperature": {
+          "Day": 30,
+          "Night": 22
+        }
+      },
+      {
+        "Date": "2020/08/19",
+        "WeatherConditions": "CLEARDAY",
+        "Temperature": {
+          "Day": 30,
           "Night": 22
         }
       }
-
     ]
   }
 ]
