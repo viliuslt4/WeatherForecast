@@ -6,12 +6,16 @@
     justify-content: space-between;
     padding: 0.75rem 0;
     .select-wrapper{
+        width:300px;
+        @media(max-width:500px){
+            width:calc(100% - 168px);
+        }
         label{
             display:block;
             text-align: left;
         }
         select{   
-            width:300px;
+            width:100%; 
         }
     }
     .wrapper{

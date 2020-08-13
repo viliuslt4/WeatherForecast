@@ -1,18 +1,45 @@
 .weather-forecast{
     padding:2rem 0;
+    @media(max-width: 575px){
+        padding:1rem 0;
+    }
     .row{
         justify-content: space-between;
         margin:0 -10px;
+        flex-wrap:wrap;
+        @media(max-width:991px){
+            justify-content: flex-start;
+        }
         .col-12{
             max-width:14%;
             padding:0 10px;
+            min-width:158px;
+            display:flex;
+            justify-content: center;
+            @media(max-width:991px){
+                min-width: 177px;
+            }
+            @media(max-width:767px){
+                min-width:176px;
+            }
+            @media(max-width:575px){
+                max-width:50%;
+            }
+            @media(max-width:362px){
+                min-width:150px;
+                padding:0 5px;
+            }
             .forecast{               
                 background-color: #f4f4f6;
                 border-radius:4px;
                 padding:0.75rem;
+                margin-bottom:20px;
                 img{
                     max-width:100%;
                     height:auto;
+                }
+                @media(max-width:362px){
+                    margin-bottom:10px;
                 }
                 .temp-box{
                     display:flex;
@@ -20,15 +47,24 @@
                     justify-content: space-between;
                 }
                 .skycon{
-                    padding:2rem 0;
+                    padding:0rem 0 1rem;
                 }
                 span{
+                    font-weight: bold;
+                    display:block;
                     &.date{
                         font-size:18px;
                         margin-bottom:1.25rem;
                     }
                     &.temp{
+                        font-weight:normal;
                         font-size:18px;
+                    }
+                    &.precipitation, &.wind{
+                        margin-bottom:0.5rem;
+                    }
+                    &.light{
+                        font-weight:normal;
                     }
                 }
             }

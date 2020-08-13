@@ -3,7 +3,9 @@
         <div class="col-12 col-md-2 text-center" *ngFor="let forecast of weatherForecast.WeatherForecastList; let i = index">
             <div class="forecast" *ngIf="i < interval">
                 <span class="date">{{ datePipe.transform(forecast.Date,"yyyy/MM/dd") }}</span>
-                <sc-skycons class="skycon" [weather]="forecast.WeatherConditions" [color]="'black'"></sc-skycons>
+                <sc-skycons class="skycon" [weather]="forecast.WeatherConditions" [color]="black"></sc-skycons>
+                <span class="precipitation">Precipitation: <span class="light">{{ forecast.Precipitation }} mm</span></span>
+                <span class="wind">Wind: <span class="light"> {{ forecast.Wind.Direction }} </span> <span class="light">{{ forecast.Wind.Strength }} m/s</span></span>
                 <div class="temp-box day"><span>Day:</span> <span class="temp">{{ forecast.Temperature.Day }} °</span></div>
                 <div class="temp-box night"><span>Night:</span> <span class="temp">{{ forecast.Temperature.Night }} °</span></div>
             </div>
