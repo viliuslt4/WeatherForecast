@@ -1,27 +1,17 @@
-# WeatherForecast
+#### How to install and run app:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1.
+1. Clone this **branch** or download this project as zip and unzip it to your projects location.
 
-## Development server
+#### How to run back-end part:
+2. Open project location with visual studio, build and start debuging mode. Browser should run .Net framework on https://localhost:44378/.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+#### How to run front-end part:
+3. Open your project with visual studio code or other code editor, which has terminal.
+4. Navigate to your project  with terminal, or open terminal in project location.
+5. Run `npm install`, this will install all package.json dependencies.
+6. Run command `ng build`, this command will build up your front-end to "/dist" folder.
+7. Run command `ng serve`, this command will run app in browser, you will see message in terminal what port it is using.
+8. Open your browser on that port location. Example: "http://localhost:4200/".
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+**Note!** There is console.log error which is caused by ngx-skycons. 
+https://github.com/DancingDad/ngx-skycons/commit/df64f576ff486c6873eabf5e7ae06f669b75ee75 here is the solution to fix this error by changing node_modules component called "ngx-skycons.component.ts".
