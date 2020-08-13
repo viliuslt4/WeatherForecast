@@ -13,5 +13,8 @@
 7. Run command `ng serve`, this command will run app in browser, you will see message in terminal what port it is using.
 8. Open your browser on that port location. Example: "http://localhost:4200/".
 
-**Note!** There is console.log error which is caused by ngx-skycons. 
+#### Notes!: 
+1. This app uses json file as database. All values are not real, just for a display purpose. If you won't see any weather forecast, check /Database/WeatherForecast.jsom file, and change date of forecast. Currently all these forecast dates are set from 2020/08/13 - 2020/08/25 range.
+2. There is console.log error which is caused by ngx-skycons. 
 https://github.com/DancingDad/ngx-skycons/commit/df64f576ff486c6873eabf5e7ae06f669b75ee75 here is the solution to fix this error by changing node_modules component called "ngx-skycons.component.ts".
+
