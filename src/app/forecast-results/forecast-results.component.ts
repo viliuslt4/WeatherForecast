@@ -3,6 +3,7 @@ import { ForecastService } from '../forecast.service';
 import { DatePipe } from '@angular/common';
 import { Request } from '../../Models/request.model';
 import { WeatherForecast } from '../../Models/weatherForecast.model';
+import { LoaderComponent } from '../loader/loader.component';
 
 @Component({
   selector: 'app-forecast-results',
@@ -20,7 +21,7 @@ export class ForecastResultsComponent implements OnInit {
       error => console.log(error)
     )
     this.forecastService.interval.subscribe(
-      interval => {this.interval = interval},
+      interval => this.interval = interval,
       error => console.log(error)
     )
   }
@@ -29,9 +30,10 @@ export class ForecastResultsComponent implements OnInit {
     this.request.date = this.datePipe.transform(new Date(),"yyyy/MM/dd");
   }
   loadWeatherForecast(){
+    this.forecastService.loaderChange(true);
     this.forecastService.getWeatherForecast(this.request).subscribe(
-      response => { this.weatherForecast = response.data; console.log(this.weatherForecast);},
-      error => console.log(error)
+      response => {this.weatherForecast = response.data; this.forecastService.loaderChange(false);},
+      error => {console.log(error); this.forecastService.loaderChange(false);}
     );
   }
 }

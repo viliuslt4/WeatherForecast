@@ -11,6 +11,8 @@ export class ForecastService {
 
   private intervalSource = new Subject<any>();
   private citySource = new Subject<any>();
+  private loaderSource = new Subject<any>();
+  loader = this.loaderSource.asObservable();
   city = this.citySource.asObservable();
   interval = this.intervalSource.asObservable();
 
@@ -27,5 +29,8 @@ export class ForecastService {
   }
   intervalChange(interval:number){
     this.intervalSource.next(interval);
+  }
+  loaderChange(loader:boolean){
+    this.loaderSource.next(loader);
   }
 }

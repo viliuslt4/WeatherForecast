@@ -9,12 +9,14 @@ import { SelectCityComponent } from './select-city/select-city.component';
 import { ForecastResultsComponent } from './forecast-results/forecast-results.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SkyconsModule } from 'ngx-skycons';
+import { LoaderComponent } from './loader/loader.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SelectCityComponent,
-    ForecastResultsComponent
+    ForecastResultsComponent,
+    LoaderComponent
   ],
   imports: [
     BrowserModule,
